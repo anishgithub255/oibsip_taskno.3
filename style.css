@@ -1,0 +1,131 @@
+/* Reset box-sizing */
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* Body styles */
+body {
+  background-image: linear-gradient(to bottom, #f3e5f5, #fff, #b3e5fc);
+  height: 100vh;
+  color: #1a237e; /* Dark blue */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading styles */
+.heading {
+  margin-left: 2%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Logo styles */
+.logo {
+  height: 20vh;
+  border-radius: 50%;
+  border: 5px solid #b3e5fc; /* Light blue */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Wrapper styles */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main content styles */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  gap: 5%;
+}
+
+.main img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form styles */
+.form {
+  margin-top: 5vh;
+  padding: 4%;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 40%;
+}
+
+/* Heading styles */
+h2 {
+  color: #311b92; /* Purple */
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styles */
+.button {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#button {
+  border: 2px solid #6200ea; /* Deep purple */
+  background-color: #6200ea; /* Deep purple */
+  color: #fff;
+  border-radius: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 12px 20px;
+  width: 40%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#button:hover {
+  background-color: #311b92; /* Dark purple */
+  border-color: #311b92; /* Dark purple */
+}
+
+/* Input and output styles */
+#input, #output {
+  border: 2px solid #6200ea; /* Deep purple */
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Select styles */
+.form select {
+  border: 2px solid #6200ea; /* Deep purple */
+  border-radius: 10px;
+  padding: 7px;
+  width: 40%;
+  margin-left: 3%;
+  font-style: italic;
+  background-color: transparent;
+  color: #6200ea; /* Deep purple */
+}
+
+.form select:hover {
+  background-color: #ede7f6; /* Light purple */
+}
